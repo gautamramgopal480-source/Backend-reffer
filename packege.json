@@ -1,0 +1,16 @@
+{
+  "name": "rg-task-bot-backend",
+  "version": "1.0.0",
+  "description": "Telegram Mini App Backend for Task Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^10.8.1",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
